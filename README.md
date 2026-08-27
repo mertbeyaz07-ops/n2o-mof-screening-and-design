@@ -1,7 +1,7 @@
 # AI-Accelerated Computational Screening and Design of MOFs for N₂O Capture
 
 This repository contains the data, trained-model resources, computational settings, generated structures, and analysis outputs associated with the manuscript:
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22119688.svg)](https://doi.org/10.5281/zenodo.22119688)
 > **AI-Accelerated Computational Screening and Design of Metal-Organic Frameworks for N₂O Capture Applications**  
 > Mert Beyaz, Gokhan Onder Aksu, and Seda Keskin  
 > Department of Chemical and Biological Engineering, Koç University, Istanbul, Türkiye
@@ -68,15 +68,22 @@ Descriptor-based models used stratified 80/20 training/test splits. Transformer 
 
 The repository also includes prediction tables, 768-dimensional PMTransformer representations projected onto principal components, and held-out-set attention outputs. PCA transformations were fitted using the training and validation representations before projecting the test and unseen sets.
 
-### PMTransformer checkpoints
+## PMTransformer checkpoints
 
-The trained `best.ckpt` files are not stored in this GitHub repository because of file-size limitations. They will be archived in Zenodo together with their model-to-file mapping and checksums.
+The trained `best.ckpt` files are not stored in this GitHub repository because of
+file-size limitations. They are archived on Zenodo:
 
-```text
-Zenodo DOI: TO BE ADDED
-```
+Zenodo DOI: 10.5281/zenodo.22119688
 
-The smaller configuration, NPZ, prediction, and analysis files required to interpret and use the checkpoints are retained in this repository. The Zenodo filenames and checksums must be matched to the corresponding TF-1–TF-4 configurations before inference.
+| Configuration | Zenodo filename | md5 |
+|---|---|---|
+| TF-1 | `TF1_best.ckpt` | `05617980a6a6f2e8fd9b2cce7e66ef74` |
+| TF-2 | `TF2_best.ckpt` | `7fdfbfa015e54fafe7b079e0bfff817b` |
+| TF-3 | `TF3_best.ckpt` | `d95af12fd1c35da05172bd74710999cd` |
+| TF-4 | `TF-4_best.ckpt` | `d18f1f2eb4bc5442a8da9e6b066ebed9` |
+
+The smaller configuration, NPZ, prediction, and analysis files required to interpret
+and use the checkpoints are retained in this repository.
 
 
 ## License
