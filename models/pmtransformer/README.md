@@ -4,8 +4,7 @@ This directory contains the scripts, configuration files, and NPZ datasets used 
 
 The trained best-checkpoint files are not included in this GitHub repository because of GitHub's file-size limitations. They are archived on Zenodo and can be accessed using the persistent link below.
 
-**Zenodo DOI:** TBD
-**Zenodo record:** TBD
+**Zenodo DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22119688.svg)](https://doi.org/10.5281/zenodo.22119688)
 
 ## Checkpoint–Model Mapping
 
