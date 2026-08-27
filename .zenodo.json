@@ -1,0 +1,12 @@
+{
+  "title": "AI-Accelerated Computational Screening and Design of Metal-Organic Frameworks for N2O Capture Applications",
+  "upload_type": "dataset",
+  "creators": [
+    {"name": "Beyaz, Mert", "affiliation": "Koç University"},
+    {"name": "Aksu, Gokhan Onder", "affiliation": "Koç University"},
+    {"name": "Keskin, Seda", "affiliation": "Koç University"}
+  ],
+  "description": "Data, trained-model resources, computational settings, generated structures, and analysis outputs associated with the manuscript on high-throughput screening and inverse design of MOFs for N2O capture.",
+  "access_right": "open",
+  "license": "cc-by-4.0"
+}
